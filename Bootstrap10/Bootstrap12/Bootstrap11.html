@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Bootstrap11.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="dv">
+        <img class="im w-75"
+            src="data:image/png;base64,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"
+            alt="">
+    </div>
+    <div class="dv">
+        <h1>You have registered to Developia Academy</h1>
+    </div>
+    <div class="div">
+        <h1>Here some questions</h1>
+    </div>
+    <div class="bottom">
+        <div class="first">
+            <form class="form-check">
+                <h2>1.How old are you</h2>
+                <input id="inp1" class="form-check-input" type="radio">
+                <p>8-10</p>
+                <input id="inp2" class="form-check-input" type="radio">
+                <p>10-14</p>
+                <input id="inp3" class="form-check-input" type="radio">
+                <p>14-18</p>
+                <input id="inp4" class="form-check-input" type="radio">
+                <p>18 and more</p>
+                <div>
+                    <h2>2.What is the biggest challenge you’re currently facing in your life?</h2>
+                    <label class="form-check-label" for="in">Wright 3 or 4 sentences</label><br>
+                    <input class="btn btn-outline-primary" type="text" id="in">
+                </div>
+                <div>
+                    <h2>3.What is the most important lesson you’ve learned so far?</h2>
+                    <label class="form-check-label" for="in2">Wright 1 or 2 sentences</label><br>
+                    <input class="btn btn-outline-primary" type="text" id="in2">
+                </div>
+                <div>
+                    <h2>4.How do you think technology is changing the way we live?</h2>
+                    <label class="form-check-label" for="in3">Wright 1 or 2 sentences</label><br>
+                    <input class="btn btn-outline-primary" type="text" id="in3">
+                </div>
+                <div>
+                    <h2>5.What does success mean to you?</h2>
+                    <input class="form-check-input" type="radio">
+                    <p>Luck</p>
+                    <input class="form-check-input" type="radio">
+                    <p>Unluck</p>
+                    <input class="form-check-input" type="radio">
+                    <p>Happiness</p>
+                </div>
+            </form>
+        </div>
+        <div class="second">
+            <form>
+                <div>
+                    <h2>6.How do you manage stress and pressure?</h2>
+                    <label class="form-check-label" for="in4">Wright 1 or 2 sentences</label><br>
+                    <input class="btn btn-outline-primary" type="text" id="in4">
+                </div>
+                <div>
+                    <h2>7.How do you stay motivated and pursue your goals?</h2>
+                    <div class="div3">
+                        <input id="inp5" class="form-check-input" type="radio">
+                        <p>With the help of friend</p>
+                    </div>
+                    <div class="div3">
+                        <input id="inp6" class="form-check-input" type="radio">
+                        <p>with the help of your parents</p>
+                    </div>
+                </div>
+                <div>
+                    <h2>8.Do you think it’s more important to be liked or to be respected?</h2>
+                    <div class="div3">
+                        <input id="inp7" class="form-check-input" type="radio">
+                        <p>To be liked</p>
+                    </div>
+                    <div class="div3">
+                        <input id="inp8" class="form-check-input" type="radio">
+                        <p>To be respected</p>
+                    </div>
+                </div>
+                <div>
+                    <h2>9.How do you cultivate and maintain a healthy body and mind?</h2>
+                    <label class="form-check-label" for="in5">Wright 4 or 5 sentences</label><br>
+                    <input class="btn btn-outline-primary" type="text" id="in5">
+                </div>
+                <div>
+                    <h2>10.What impact do you believe your actions have on the world around you?</h2>
+                    <label class="form-check-label" for="in6">Wright 1 to 6 sentences or more</label><br>
+                    <input class="btn btn-outline-primary" type="text" id="in6">
+                </div>
+                <label for="validationTextarea" class="form-label">Was it difficult or not?Write how was it</label>
+                <div class="mb-2 sh">
+                            
+                            <textarea id="inp" class="place form-control" id="validationTextarea" required></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+<script src="../jquery-3.7.1.min.js"></script>
+<script src="Bootstrap11.js"></script>
+</body>
+
+</html>

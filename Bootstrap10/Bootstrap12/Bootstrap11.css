@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dv{
+    display: flex;
+    justify-content: center;
+    margin-top: 155px;
+    border: 2px solid green;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.div3{
+    display: flex;
+}
+
+.form-label{
+    margin-top: 30px;
+}
+
+.sh{
+    border: 3px solid black;
+    border-radius: 10px;
+}
